@@ -3,7 +3,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Hello world!</h1>
+      <h1>Who would win in a fight?</h1>
+      <ul>
+        <li>Jalla</li>
+        <li>Callason</li>
+      </ul>
     </div>
   );
 }
