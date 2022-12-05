@@ -29,6 +29,12 @@ function App() {
         <li>Jalla</li>
         <li>Callason</li>
       </ul>
+      <h1>The most original app ever created</h1>
+      <button className = "buttons" onClick={addOneToCount}> + 1 </button>
+      <button className = "buttons" onClick={addFiveToCount}> + 5 </button>
+      <button className = "buttons" onClick={addTenToCount}> + 10 </button>
+      <h2> {count} </h2>
+      <button className = "buttons" onClick={resetCount}> RESET!!! ⚠️ </button>
     </div>
   );
 }
