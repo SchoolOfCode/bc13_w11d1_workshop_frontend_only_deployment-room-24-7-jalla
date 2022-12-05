@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>The most original app ever created</h1>
+      <h1><b>The most original app ever created</b></h1>
       <div className='buttons-parent'>
       <button className = "buttons" onClick={addOneToCount}> + 1 </button>
       <button className = "buttons" onClick={addFiveToCount}> + 5 </button>
