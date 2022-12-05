@@ -25,11 +25,13 @@ function App() {
   return (
     <div className="App">
       <h1>The most original app ever created</h1>
+      <div className='buttons-parent'>
       <button className = "buttons" onClick={addOneToCount}> + 1 </button>
       <button className = "buttons" onClick={addFiveToCount}> + 5 </button>
       <button className = "buttons" onClick={addTenToCount}> + 10 </button>
+      </div>
       <h2> {count} </h2>
-      <button className = "buttons" onClick={resetCount}> RESET!!! ⚠️ </button>
+      <button className = "buttons" id="reset-button" onClick={resetCount}> <b> RESET!!! ⚠️</b> </button>
     </div>
   );
 }
