@@ -24,11 +24,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Who would win in a fight?</h1>
-      <ul>
-        <li>Jalla</li>
-        <li>Callason</li>
-      </ul>
       <h1>The most original app ever created</h1>
       <button className = "buttons" onClick={addOneToCount}> + 1 </button>
       <button className = "buttons" onClick={addFiveToCount}> + 5 </button>
